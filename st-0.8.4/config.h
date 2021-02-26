@@ -98,7 +98,8 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.65;
+float alpha = 0.60;
+float alpha_dimmed = 0.80;
 unsigned int alpha_enabled = 1;
 
 /* Terminal colors (16 first used in escape sequence) */

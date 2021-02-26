@@ -823,7 +823,7 @@ alphatogglerefresh(void)
 		alpha = preservedAlpha;
 	} else {
 		preservedAlpha = alpha;
-		alpha = 1;
+		alpha = alpha_dimmed;
 	}
 }
 
